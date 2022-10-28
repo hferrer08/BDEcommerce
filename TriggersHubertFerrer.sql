@@ -435,7 +435,7 @@ datoNuevo varchar(50),
 TipoCambio varchar (50)
 );
 
--- Trigger insert
+-- Trigger insert - Guarda historial de cambios insert de la tabla pedido
 
 create trigger insertHistorialCambio
 after insert on pedido
@@ -449,7 +449,7 @@ values
 INSERT INTO Pedido (`idPedido`,`idCliente`,`idProducto`) VALUES (21,1140621793,3);
 select * from historial_cambios_pedido;
 
--- Trigger update
+-- Trigger update - Guarda historial de cambios update de tabla pedido
 
 create trigger updateHistorialCambio
 after update on pedido
@@ -476,7 +476,7 @@ datoViejo_FechaEnvio date,
 datoViejo_idProducto int
 );
 
--- Trigger Insert envio
+-- Trigger Insert envio - Realiza historia de cambio insert en tabla Envio
 
 create trigger insertHistorialEnvio
 after insert on Envio
@@ -491,7 +491,7 @@ select * from historial_cambios_Envio;
 
 -- Trigger delete
 
--- Trigger Delete // before
+-- Trigger Delete Envio // before - Hace backup de dato eliminado en tabla Envio
 create trigger deleteHistorialEnvio
 before delete on envio
 for each row
