@@ -1,26 +1,26 @@
-idProducto;NombreProducto;Stock;idCategoria
-null;FIFA23 PS;70;1
-null;FIFA23 XBOX;85;3
-null;FIFA23 SWITCH;47;2
-null;Super Smash Bros;85;2
-null;Dragon Ball Xenoverse PS;52;1
-null;Dragon Ball Xenoverse XBOX;52;3
-null;Halo;70;3
-null;Bloodborne ;52;1
-null;Gears of War;85;3
-null;Killer Instinct;30;3
-null;Pokemon Espada y Escudo;70;2
-null;Dragon Ball Xenoverse Switch;47;2
-null;The Last Guardian ;47;1
-null;Sea of Thieves;70;3
-null;Detroit: Become Human ;30;1
-null;Titanfall;70;3
-null;Kirby;30;2
-null;God of war;20;1
-null;Forza Horizon 4;85;3
-null;Marvel's Spider-Man ;70;1
-null;The legend of zelda;20;2
-null;Animal Crossing;70;2
-null;Metroid Dread;70;2
-null;Super Mario Maker2;70;2
-null;Bayonetta 2;85;2
+idProducto;NombreProducto;Stock;idCategoria;idTipoDeJuego
+null;FIFA23 PS;70;1;1
+null;FIFA23 XBOX;85;3;1
+null;FIFA23 SWITCH;47;2;1
+null;Super Smash Bros;85;2;1
+null;Dragon Ball Xenoverse PS;52;1;1
+null;Dragon Ball Xenoverse XBOX;52;3;1
+null;Halo;70;3;1
+null;Bloodborne ;52;1;1
+null;Gears of War;85;3;1
+null;Killer Instinct;30;3;2
+null;Pokemon Espada y Escudo;70;2;2
+null;Dragon Ball Xenoverse Switch;47;2;2
+null;The Last Guardian ;47;1;2
+null;Sea of Thieves;70;3;2
+null;Detroit: Become Human ;30;1;2
+null;Titanfall;70;3;2
+null;Kirby;30;2;2
+null;God of war;20;1;2
+null;Forza Horizon 4;85;3;2
+null;Marvel's Spider-Man ;70;1;2
+null;The legend of zelda;20;2;2
+null;Animal Crossing;70;2;2
+null;Metroid Dread;70;2;2
+null;Super Mario Maker2;70;2;2
+null;Bayonetta 2;85;2;2
